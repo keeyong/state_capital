@@ -15,7 +15,7 @@ Now use a single dictionary to manage state and capital pairs More manageable th
 ## 4th version
 Now reading from MySQL (this can be one in your laptop or a RDS in AWS). Here are SQLs used to populate MySQL accordingly
 
-create table test.state_capital (
+`create table test.state_capital (
     state varchar(32),
     capital varchar(64)
 );
@@ -23,3 +23,4 @@ create table test.state_capital (
 insert into test.state_capital value ("California", "Sacramento");
 insert into test.state_capital value ("Nevada", "Carson City");
 insert into test.state_capital value ("Washington", "Olympia");
+`
