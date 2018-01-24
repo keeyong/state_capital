@@ -16,6 +16,7 @@ Now use a single dictionary to manage state and capital pairs More manageable th
 Now reading from MySQL (this can be one in your laptop or a RDS in AWS). Here are SQLs used to populate MySQL accordingly
 
 ```
+-- this assumes you have a database named "test"
 create table test.state_capital (
     state varchar(32),
     capital varchar(64)
