@@ -16,6 +16,7 @@ for name in names:
     print("1st approach - first name:" + name["firstname"] + ", last name:" + name["lastname"])
 
 # ---- 2nd approach
+# 여기서는 키는 이름이 되고 값은 성이 되는 구조이다
 name_1 = { 'keeyong': 'han' }
 name_2 = { 'dennis': 'yang' }
 
